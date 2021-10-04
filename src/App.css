@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
