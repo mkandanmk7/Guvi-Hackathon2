@@ -1,6 +1,7 @@
 import React from "react";
 
-const Product = (props) => {
+const Products = (props) => {
+  console.log(props);
   const imgsrc = "https://via.placeholder.com/300x300";
   const name = props.value.name;
   const price = props.value.price;
@@ -44,4 +45,4 @@ const Product = (props) => {
   );
 };
 
-export default Product;
+export default Products;
