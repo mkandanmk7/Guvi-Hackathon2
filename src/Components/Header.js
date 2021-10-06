@@ -55,8 +55,8 @@ const Header = ({ cartCount }) => {
             </div>
           </nav>
           <form className="ml-auto">
-            <button className="btn btn-outline-dark mt-2">
-              <i className="fas fa-shopping-cart"></i>
+            <button className="btn btn-outline-light mt-2">
+              <i className="fas fa-shopping-cart m-2"></i>
               <span className="badge rounded-pill bg-dark text-light cartvalue">
                 {cartCount}
               </span>
