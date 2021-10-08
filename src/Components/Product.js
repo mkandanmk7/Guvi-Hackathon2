@@ -1,7 +1,6 @@
 import React from "react";
 
-const Products = (props) => {
-  console.log(props);
+const Product = (props) => {
   const imgsrc = "https://via.placeholder.com/300x300";
   const name = props.value.name;
   const price = props.value.price;
@@ -32,17 +31,15 @@ const Products = (props) => {
   // };
 
   return (
-    <div className="card bg-light">
-      <img className="m-2" src={imgsrc} alt="" />
+    <div className="card">
+      <img src={imgsrc} alt="" />
       <h2>{name}</h2>
       <p>
         <b>{price}</b>
       </p>
-      <button className="btn btn-outline-dark m-2" onClick={handleCart}>
-        {cartName}
-      </button>
+      <button onClick={handleCart}>{cartName}</button>
     </div>
   );
 };
 
-export default Products;
+export default Product;
